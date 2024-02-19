@@ -1,0 +1,96 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+form > button {
+  background: cadetblue;
+  border: 1px solid cadetblue;
+  outline: none;
+  padding: 0.3rem 2rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 2rem;
+  color: white;
+}
+
+form > button:hover {
+  opacity: 0.8;
+}
+
+form > input {
+  padding: 0.8rem 1rem;
+  outline: none;
+  border-radius: 0.3rem;
+  border: 1px solid gray;
+  width: 25rem;
+  font-size: 1rem;
+}
+
+.todoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.todo {
+  padding: 0 0.6rem;
+  display: flex;
+  align-items: center;
+  border-radius: 0.4rem;
+  justify-content: space-between;
+  background: cadetblue;
+  width: 50rem;
+}
+
+.todo > input {
+  width: 2rem;
+  height: 2rem;
+  flex: none;
+}
+
+.todo > p {
+  font-weight: 600;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.todo > button {
+  flex: none;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  background: crimson;
+  color: white;
+  cursor: pointer;
+  border-radius: 100%;
+}
+
+.todo > button:hover {
+  opacity: 0.8;
+}
+
+.textCut {
+  text-decoration: line-through;
+  text-decoration-color: crimson;
+  text-decoration-thickness: 0.2rem;
+}
